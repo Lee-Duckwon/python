@@ -10,3 +10,7 @@ print(statistics.mean(grades)) # 평균 구하기
 
 import random
 print(random.choice(students)) # 랜덤 뽑기
+
+days = ["Mon","Tue","Wed","Thur","Fri"]
+print(type(days)) # list
+days.reverse()
